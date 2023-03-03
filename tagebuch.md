@@ -1,6 +1,6 @@
 # Tagebuch
 
-> Frage an die Gruppe: ist das Tagebuch eine
+> Frage an die Gruppe: Tagebuch einfach als *kompaktes* Sitzungsprotokoll posten?
 
 [toc]
 
@@ -12,23 +12,29 @@ Treffen findent am **Samstag morgen** - *10:00 in Binningen* statt
 
 ***
 
-## 2023-02-28 Probespielen
+## 2023-02-28 Game *"Robo Rally"* - Probespielen
 
 - [x] [Spiel](https://de.wikipedia.org/wiki/Robo_Rally) ausprobiert
 
-Zu besprechen:
 
--    Wo Protokoll aufschreiben/Tagebuch aufschreiben?
-~~ownCloud~~ **[HackMD](https://hackmd.io)** wird genutzt, Pascal gibt Einführung
 
-- Tools für
-  - Tagebuch (HackMD ~~ownCloud~~)
+- [x] Tagebuch mittels Markdown-Editor **[HackMD](https://hackmd.io)** aufsgesetzt -> Rendern dieser Website :smiley: 
+
+
+- [x] Tools bestimmt für:
+  - Tagebuch (HackMD)
   - Tasks (Gantt & Discord)
   - Zeitplan (Wie oben)
   - Code sharing (Git-Lab)
   - netzwerk tool ([Hamachi](https://vpn.net/))
-- Teamname: U-turners, Game "Robo Rally"
-- Meilensteine Besprechen
+- [x] Teamname bestimmt: U-turners, Game "Robo Rally"
+- [x] Nächste Sitzung planen
+
+- [x] Meilenstein 1 besprechen
+
+***
+
+**Bis nächste Sitzung erledigt:**
 - Susan macht Projektplan mit Gantt
 - Pascal setzt Tagebuch auf
 - Cielle schreibt ersten Eintrag
@@ -50,12 +56,9 @@ Implementierung des Brettspiels "Robo Rally" in Java
 - Susan: Game-Mockup
 - Pascal: Power point
 - **Alle**: sich überall einloggen & Software herunterladen
-
-- Nächste Sitzung planen
-- Samstag morgen: 10:00 Binningen
-
 - wöchentlicher Termin planen
-Zischtig 12:00-14:00
+    - Montag 08:00 - 10:00
+    - Dienstag 12:00 - 14:00
 
 ### Anmerkungen
 - **Susan**
