@@ -1,24 +1,17 @@
 # Tagebuch
 
-> Frage an die Gruppe: Tagebuch einfach als *kompaktes* Sitzungsprotokoll posten?
-
 [toc]
-
-
-## 2023-03-04 Masterplan erstellen
-    
-Treffen findent am **Samstag morgen** - *10:00 in Binningen* statt
 
 
 ***
 
-## 2023-02-28 Game *"Robo Rally"* - Probespielen
+## 2023-02-28 Binningen *"Robo Rally"* - Probespielen
 
 - [x] [Spiel](https://de.wikipedia.org/wiki/Robo_Rally) ausprobiert
 
 
 
-- [x] Tagebuch mittels Markdown-Editor **[HackMD](https://hackmd.io)** aufsgesetzt -> Rendern dieser Website :smiley: 
+- [x] Tagebuch und Sitzungs - Protokolle mittels **Markdown**-Editor **[HackMD](https://hackmd.io)** aufsgesetzt -> Rendern dieser Website :smiley: 
 
 
 - [x] Tools bestimmt für:
@@ -27,12 +20,11 @@ Treffen findent am **Samstag morgen** - *10:00 in Binningen* statt
   - Zeitplan (Wie oben)
   - Code sharing (Git-Lab)
   - netzwerk tool ([Hamachi](https://vpn.net/))
+  - ownCloud wird als **zentraler** Daten-Speicher benutzt
 - [x] Teamname bestimmt: U-turners, Game "Robo Rally"
 - [x] Nächste Sitzung planen
-
 - [x] Meilenstein 1 besprechen
 
-***
 
 **Bis nächste Sitzung erledigt:**
 - Susan macht Projektplan mit Gantt
@@ -56,16 +48,105 @@ Implementierung des Brettspiels "Robo Rally" in Java
 - Susan: Game-Mockup
 - Pascal: Power point
 - **Alle**: sich überall einloggen & Software herunterladen
-- wöchentlicher Termin planen
+- **wöchentlicher** Termin planen
     - Montag 08:00 - 10:00
     - Dienstag 12:00 - 14:00
 
 ### Anmerkungen
-- **Susan**
-Anmerkungen müssen konsequent aufgenommen werden, **beim Thema bleiben**!
+**Susan**
+- Anmerkungen müssen konsequent aufgenommen werden, **beim Thema bleiben**!
 
-- **Toby**
-Buch bestellt.
+**Toby**
+- Buch bestellt.
 
-- **Cielle**
-Offene Kommunikation wichtig, immer bescheid geben wenn was zu viel/zu wenig.
+**Cielle**
+- Offene Kommunikation wichtig, immer bescheid geben wenn was zu viel/zu wenig.
+
+***
+
+## 2023-03-04 Dornach - Masterplan erstellen
+
+### Was wurde erledigt
+#### **Mockup - Susan**
+- Mockup fertig und aufgesetzt
+- Problem: Kein Platz für mehr als 4 Spieler, evt 5.
+- Spieler evt. auf 4-5 beschränken
+- Spieler evt. oben in einer Reihe anstelle von Seite, Spielfeld in der Mitte
+- **Design simpel halten**
+- Evt Spielfeld etwas vergrössern und Spieler kompakter gestalten
+- Ein Chat-Fenster muss inbegriffen sein
+
+#### **Recherche/Spielregeln - Toby**
+- Richard Garfield, same guy as MtG, erstes Spiel
+- Verschiedene Versionen, Spielfeld hat grösste Änderung
+- App für Spiel existiert
+- Regelwerk existiert online -> Siehe Notizen Toby für Ausführliche Beschreibung
+
+**Anmerkung Pascal**
+- Wiki erstellung muss übernommen werden, zu Erklärung von Begriffen
+- Kurze Erklärung von Wiki von Begriffen und Klassen
+- evt. Folien zusammenfassung auf Wiki oder HackMD speichern?
+- Pascal macht Zusammenfassung
+- Anforderungen:
+    - Host muss Spielplan auswählen
+    - Spieler Roboter/Farbe auswählen?
+
+**Gantt - Susans Meinung**
+- Sehr wenige Funktionen
+- Wochenende augeblendet -> kann Abgabetermine nicht auf Wochenende verlegen!
+- Nur als Zeitplan geeignet, nicht als Taskmanager
+- Cloud muss in Browser aktiviert werden und dann im Programm editiert werden, sehr umständlich.
+- **Susan fragt Tutor wieso Gantt**
+
+**Anmerkung Pascal**
+- Hub für Fragen?
+- Discord als Lösung
+- Für nächstes Treffen: Neues Programm finden!
+- Susan sucht nach neuen Methoden -> HackMD?
+
+**Protokoll - Cielle**
+- Sitzungsprotokoll funktioniert, Mark-Down klappt
+- Kann auch von anderen übernommen werden
+
+### Vortrag/Planung
+- Vortrag wurde auf HackMD erstellt
+- Bei Bilder muss Hintergrund vorhanden sein
+- HackMD nicht besonders geeignet, PPP oder LateX
+- Susan und Pascal zusammen Latex aufsetzen, Montag 06.03.2023 16:00 im ZG
+
+#### Aufteilung Vortrag
+- Cielle
+Begrüssung und Einführung
+- Susan
+Gantt und Tools vorstellen
+- Toby
+Spielregeln
+- Pascal
+Server - Client
+
+### Bedeutung Requirment Analysis
+-  Was muss das **Programm** können? 
+    -  was muss der Server können?
+    -  was muss der Client können?
+    
+    
+### Server Client Protokoll/Beziehungen
+
+#### Client elemente
+- Spielbretter werden dargestellt
+- Generieren von GUI
+- Auswahl von Zugkarten
+- Auwahl von Power-Down
+- Chat Input
+- Chat Output darstellen
+
+#### Server elemente
+- Zustand des Spielbretts (Position und Orientierung, Brett-Elemente)
+- Spezifisches Brett wird gewählt
+- Spielregeln
+- Win/Loose Conditions
+- Spielerreihenfolge
+- Führt Bewegungen/Spielbrett aus
+- Leben und Schaden und Zustände von Spielern
+- Verteilt Zugkarten
+- Chatlog
